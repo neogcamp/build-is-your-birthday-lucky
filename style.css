@@ -18,6 +18,8 @@ a {
   text-decoration: none;
 }
 
+/*  Main */
+
 section {
   display: flex;
   max-width: 80%;
@@ -129,6 +131,8 @@ h1 {
   line-height: 2.9rem;
 }
 
+/*  Footer */
+
 footer {
   align-items: center;
   padding: 1rem 2rem;
@@ -142,14 +146,6 @@ footer {
   box-shadow: 3px 8px 15px #d9dade, -10px -8px 15px #ffffff;
 }
 
-footer img {
-  width: 48px;
-}
-
-.inline-list li {
-  display: inline;
-}
-
 footer p {
   text-align: end;
   font-size: larger;
@@ -158,6 +154,16 @@ footer p {
 footer span {
   cursor: pointer;
 }
+
+footer img {
+  width: 48px;
+}
+
+.inline-list li {
+  display: inline;
+}
+
+/* policy card */
 
 #policy-card {
   visibility: hidden;
@@ -186,6 +192,7 @@ footer span {
 
   section {
     height: auto;
+    backdrop-filter: none;
   }
 
   #left-div {
