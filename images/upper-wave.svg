@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient">
+      <stop offset="0.05" stop-color="#9900efff"/>
+      <stop offset="0.95" stop-color="#32ded4ff"/>
+    </linearGradient>
+  </defs>
+  <path d="M -0.233 -0.947 L -0.233 247.856 C 38.511 204.975 77.228 162.028 114.617 179.614 C 152.006 197.2 203.11 193.341 214.798 146.84 C 226.486 100.339 272.333 56.657 328.261 71.036 C 384.189 85.415 354.679 24.074 400.681 0.488 L 401.332 -0.947 L -0.233 -0.947 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150" style=""/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+</svg>
