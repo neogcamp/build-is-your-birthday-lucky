@@ -185,7 +185,7 @@ footer img {
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   #right-div {
     display: none;
   }
