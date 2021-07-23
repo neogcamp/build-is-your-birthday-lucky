@@ -46,6 +46,7 @@ section {
 
 #right-div img {
   max-width: 750px;
+  width: 100%;
   margin-top: 5rem;
   padding-left: 1rem;
 }
