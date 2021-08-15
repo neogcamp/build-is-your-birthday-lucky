@@ -3,72 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Is your Birthday Lucky ?</title>
-    <link rel="stylesheet" href="style.css" />
     <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://www.google.com/s2/u/0/favicons?domain=neog.camp"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
     />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Mark-11 NeogCamp🚀</title>
   </head>
-
   <body>
-    <main>
-      <section>
-        <div id="left-div">
-          <h1>Is your Birthday Lucky ?</h1>
-          <p>Enter your Birth date:</p>
-          <input type="date" id="birthdate" />
-          <p>Enter your Lucky Number:</p>
-          <input type="number" id="lucky-num" />
-          <div id="btns">
-            <button id="btn">Enter</button>
-            <button id="tweet">
-              <img src="images/tweet.svg" alt="tweet" />
-            </button>
-            <button id="reset">
-              <img src="images/reset.svg" alt="reset" />
-            </button>
-          </div>
-          <div id="output"></div>
-        </div>
-
-        <div id="right-div">
-          <img src="images/gift.png" alt="gift" />
-        </div>
-      </section>
+    <h1 class="header">Is your Birthday Lucky? 🤔</h1>
+    <main class="container">
+      <label for="date-of-birth">Date Of Birth:</label>
+      <input type="date" id="date-of-birth" />
+      <label for="lucky-number">Lucky Number:</label>
+      <input type="number" id="lucky-number" placeholder="Enter a number" />
+      <button id="calculate-number">Check Number</button>
+      <p id="output-container"></p>
     </main>
-
-    <div id="policy-card">
-      This card informs you of our policies regarding the collection, use and
-      disclosure of Personal Information we receive from users of the site. We
-      aren't storing your personal information
-    </div>
-
     <footer>
-      <ul class="list-unordered inline-list">
+      <p>© | 2021 | adarshbalika</p>
+      <ul class="footer-list">
         <li>
           <a class="links" href="https://github.com/neogcamp/" target="_blank">
             <img src="images/github.svg" alt="github" />
           </a>
         </li>
-
+        <li>
+          <a class="links" href="https://bit.ly/tanaydiscord" target="_blank">
+            <img src="images/discord.svg" alt="discord" />
+          </a>
+        </li>
         <li>
           <a class="links" href="https://twitter.com/neogcamp" target="_blank">
             <img src="images/twitter.svg" alt="twitter" />
           </a>
         </li>
-
-        <li>
-          <a
-            class="links"
-            href="https://www.linkedin.com/company/neog-camp/"
-            target="_blank"
-          >
-            <img src="images/linkedin.svg" alt="linkedin" />
-          </a>
-        </li>
-
         <li>
           <a
             class="links"
@@ -79,10 +48,7 @@
           </a>
         </li>
       </ul>
-
-      <p>© | 2021 | adarshbalika | <span id="policy">Privacy Policy</span></p>
     </footer>
-
-    <script src="main.js" type="text/javascript"></script>
+    <script src="./main.js" type="text/javascript"></script>
   </body>
 </html>
